@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Title>Tião Delivery</Title>
+    <link href="{{ url_for('static', filename='Landing.css') }}" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    
+
+    <div class="background">
+        <div class="container">
+            <title>Tião Delivery</title>
+            <div class="content">
+                <image class="logo" src="static/images/tiao-logo.png">
+                <h1>TIÃO LIGEIRIN</h1>
+                <h2>MAIS RÁPIDO QUE MIOJO</h2>
+            </div>
+            <div class="carousel">
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <div class="slide first">
+                            <image class="images-carousel" src="static/images/coxinha.jpg" alt="Imagem 1"/>
+                        </div>
+                        <div class="slide">
+                            <image class="images-carousel" src="static/images/fatia-bolo.jpg" alt="Imagem 2"/>
+                        </div>
+                        <div class="slide">
+                            <image class="images-carousel" src="static/images/pastel.jpg" alt="Imagem 3"/>
+                        </div>
+                        <div class="slide">
+                            <image class="images-carousel" src="static/images/brigadeiro.jpg" alt="Imagem 4"/>
+                        </div>
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus auctor tincidunt.</h3>
+                    <button class="redirect-btn">Redirect!</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="{{ url_for('static', filename='count.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='redirect.js') }}"></script>
+
+
+</html>
