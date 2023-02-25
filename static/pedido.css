@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    
+}
+.chat{
+    background-color: aqua;
+}
+.pedido{
+    background-color: brown;
+}

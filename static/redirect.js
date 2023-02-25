@@ -9,7 +9,6 @@ $(document).ready(function(){
                 button: $(this).text()
             },
             success: function(response){
-                alert(response);
                 location.replace(response);
             }
         })
