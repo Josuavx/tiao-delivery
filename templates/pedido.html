@@ -9,17 +9,17 @@
     <div class="bk">
         <div class="chat">
             <div class="barra">
-                <button class="btn-return"><image class="seta" src="static/images/seta-esquerda.png"></button>
+                <button class="btn-return" onclick="Voltar()"><image class="seta" src="static/images/seta-esquerda.png"></button>
             </div>
         </div>
         <div class="pedido">
             <div class="barra">
-                <h2>Pedido</h2>
+                <h2 class="txt">Seu pedido</h2>
             </div>
         </div>
     </div>
 </body>
 
-
+<script type="text/javascript" src="{{ url_for('static', filename='redirect.js') }}"></script>
 
 </html>
