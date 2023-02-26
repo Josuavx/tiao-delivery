@@ -2,12 +2,37 @@
     margin: 0;
     padding: 0;
 }
-.background{
-    
+.bk{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: black;
 }
 .chat{
-    background-color: aqua;
+    width: 70%;
+    max-height: 100vh;
+    background-color: rgb(255, 255, 255);
 }
 .pedido{
-    background-color: brown;
+    width: 30%;
+    max-height: 100vh;
+    background-color: rgb(255, 199, 0); 
+}
+.barra{
+    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    width: 100%;
+    border-bottom: solid black 3px;
+}
+.btn-return{
+    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-right: solid black 3px;   
+}
+.seta{
+    transform: scaleX(-1);
+    max-height: 30px;
+    max-width: 50px;
 }
