@@ -39,3 +39,19 @@
 .txt{
     padding-left: 20px;
 }
+.input{
+    justify-content: center;
+    margin-top: 670px;
+    margin-left: 20px;
+    width: 90%;
+    height: 4%;
+    border: solid gray 1px;
+    border-radius: 20px;
+    padding: 8px;
+}
+.enviar{
+    width: 4%;
+    height: 6%;
+    border: solid gray 3px;
+    border-radius: 100px;
+}
